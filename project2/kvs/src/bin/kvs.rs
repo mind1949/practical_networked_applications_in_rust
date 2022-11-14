@@ -6,7 +6,7 @@ use std::process::exit;
 
 fn main() -> Result<()> {
     let matches = Command::new(env!("CARGO_PKG_NAME"))
-        .version("1")
+        .version(env!("CARGO_PKG_VERSION"))
         .version(env!("CARGO_PKG_VERSION"))
         .author(env!("CARGO_PKG_AUTHORS"))
         .about(env!("CARGO_PKG_DESCRIPTION"))
