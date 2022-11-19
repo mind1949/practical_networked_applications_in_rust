@@ -1,0 +1,24 @@
+[package]
+name = "pipo"
+version = "0.1.0"
+edition = "2021"
+author = ["mind1949 <lianjie1949@gmail.com>"]
+description = """
+
+    *******    **   *******      *******    
+    /**////**  /**  /**////**    **/////**   
+    /**   /**  /**  /**   /**   **     //**  
+    /*******   /**  /*******   /**      /**  
+    /**////    /**  /**////    /**      /**  
+    /**        /**  /**        //**     **   
+    /**        /**  /**         //*******    
+    //         //   //           ///////     
+
+A data store with Redis serialization protocol (RESP)
+
+"""
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap="4"
