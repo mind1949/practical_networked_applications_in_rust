@@ -30,7 +30,6 @@ impl PipoClient {
             let mut response = String::new();
             self.remote.reader.read_line(&mut response)?;
             // 写入本地
-            self.local.write(self.prompt().as_bytes())?;
             self.local.writer.write_all(response.as_bytes())?;
             self.local.writer.flush()?;
         }

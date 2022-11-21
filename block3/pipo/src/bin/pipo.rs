@@ -1,7 +1,5 @@
 use clap::{self, Arg, ArgMatches, Command};
-use pipo::client::PipoClient;
-use pipo::error::Result;
-use pipo::server::PipoServer;
+use pipo::{PipoClient, PipoServer, Result};
 use std::process::exit;
 
 fn main() -> Result<()> {

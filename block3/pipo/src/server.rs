@@ -5,7 +5,7 @@ use std::{
     net::{TcpListener, ToSocketAddrs},
 };
 
-/// pipo 服务端
+/// pipo server
 pub struct PipoServer {
     listener: TcpListener,
 }

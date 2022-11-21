@@ -1,6 +1,9 @@
 //! A data store with [Redis serialization protocol (RESP)](https://redis.io/docs/reference/protocol-spec)
 
-pub mod error;
+mod client;
+mod error;
+mod server;
 
-pub mod client;
-pub mod server;
+pub use client::PipoClient;
+pub use error::{PipoError, Result};
+pub use server::PipoServer;

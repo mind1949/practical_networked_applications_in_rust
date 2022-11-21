@@ -16,4 +16,5 @@ impl From<std::io::Error> for PipoError {
     }
 }
 
+/// alias for std::result::Result<T, PipoError>
 pub type Result<T> = std::result::Result<T, PipoError>;

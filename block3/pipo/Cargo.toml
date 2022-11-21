@@ -22,3 +22,4 @@ A data store with Redis serialization protocol (RESP)
 
 [dependencies]
 clap="4"
+
